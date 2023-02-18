@@ -1,0 +1,65 @@
+.head{
+    list-style: none;
+    
+}
+header{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    height: 10vh;
+    background-color: azure;
+}
+ul li {
+    padding: 40px;
+    font-size: x-large;
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+}
+#see{
+    position: relative;
+    right:75vh;
+    
+    
+}
+.photo{
+    float: right;
+    height: 400px;
+    width: 400px;
+
+}
+#fl{
+    font-style: none;
+    font-weight: bolder;
+    /* background-color: cadetblue; */
+    color: blueviolet;
+    font-size: xx-large;
+    text-decoration:double;
+}
+.second{
+    margin: 100px;
+}
+.letter{
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-variant: small-caps;
+    letter-spacing: normal;
+    text-decoration:underline;
+    text-transform: capitalize;
+    color: #0068ffb0;
+    cursor: pointer;
+}
+
+#photo1{
+    background-image: -moz-linear-gradient();
+    border-radius: 50%;
+    background-position: center;
+    height: 350px;
+    width:350px  
+
+}
+/* for to remove the under line  in the link */
+ a:link{text-decoration: none;}
